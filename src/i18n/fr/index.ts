@@ -155,7 +155,8 @@ const fr = {
 	writePromptToStart: 'Écrivez une invite pour démarrer une nouvelle session',
 	you: 'Vous',
 	copiedNotPrivate: 'Contenu copié, mais votre connexion n’est pas privée',
-	notCopiedNotPrivate: 'Impossible de copier le contenu. La connexion n’est pas privée'
+	notCopiedNotPrivate: 'Impossible de copier le contenu. La connexion n’est pas privée',
+	thinkDescription: 'Enable thinking on model'
 } satisfies BaseTranslation;
 
 export default fr;

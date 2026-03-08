@@ -105,7 +105,8 @@ const vi = {
 	version: 'Phiên bản',
 	vocabOnly: 'Chỉ từ vựng',
 	writePromptToStart: 'Viết một câu hỏi để bắt đầu phiên mới',
-	you: 'Bạn'
+	you: 'Bạn',
+	thinkDescription: 'Enable thinking on model'
 } satisfies BaseTranslation;
 
 export default vi;

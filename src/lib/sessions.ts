@@ -23,6 +23,7 @@ export interface Session {
 	systemPrompt: Message;
 	options: Partial<OllamaOptions>;
 	model?: Model;
+	think: boolean;
 	updatedAt?: string;
 	title?: string;
 }
@@ -63,7 +64,8 @@ export const loadSession = (id: string): Session => {
 				// created before this feature was implemented need to be set to the defaults.
 				// Over time we can probably remove them.
 				options: existingSession.options || {},
-				systemPrompt: existingSession.systemPrompt || defaultSystemPrompt
+				systemPrompt: existingSession.systemPrompt || defaultSystemPrompt,
+				think: existingSession.think || false
 			};
 		}
 	}
@@ -78,6 +80,7 @@ export const loadSession = (id: string): Session => {
 			model,
 			systemPrompt: defaultSystemPrompt,
 			updatedAt: new Date().toISOString(),
+			think: false,
 			messages: [],
 			options: {}
 		};

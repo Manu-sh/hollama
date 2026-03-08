@@ -93,7 +93,8 @@ const pt_br = {
 		'Deseja conectar a um servidor do Ollama que não está disponível em {hostname:string} ou {ip:string} tente',
 	version: 'Versão',
 	writePromptToStart: 'Escreva um prompt para iniciar uma nova sessão',
-	you: 'Você'
+	you: 'Você',
+	thinkDescription: 'Enable thinking on model'
 } satisfies BaseTranslation;
 
 export default pt_br;

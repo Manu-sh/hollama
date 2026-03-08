@@ -155,7 +155,8 @@ const de = {
 	version: 'Version',
 	vocabOnly: 'Nur Vokabular',
 	writePromptToStart: 'Schreiben Sie eine Anweisung, um eine neue Sitzung zu starten',
-	you: 'Sie'
+	you: 'Sie',
+	thinkDescription: 'Enable thinking on model'
 } satisfies BaseTranslation;
 
 export default de;

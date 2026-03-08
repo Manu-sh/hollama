@@ -15,6 +15,7 @@ export interface Message {
 export interface ChatRequest {
 	model: string;
 	messages: Message[];
+	think?: boolean;
 	stream?: boolean;
 	options?: Partial<OllamaOptions>;
 }

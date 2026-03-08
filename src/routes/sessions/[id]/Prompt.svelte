@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Brain, CircleStop, Image, LoaderCircle, UnfoldVertical } from 'lucide-svelte';
+	import { Lightbulb, Brain, CircleStop, Image, LoaderCircle, UnfoldVertical } from 'lucide-svelte';
 	import MessageSquareText from 'lucide-svelte/icons/message-square-text';
 	import Settings_2 from 'lucide-svelte/icons/settings-2';
 	import Trash_2 from 'lucide-svelte/icons/trash-2';
@@ -378,6 +378,7 @@
 				>
 					<Brain class="base-icon" />
 				</Button>
+
 				<Button
 					variant="outline"
 					onclick={handleImageUploadClick}
@@ -385,6 +386,16 @@
 					title={$LL.attachImage()}
 				>
 					<Image class="base-icon" />
+				</Button>
+
+
+				<Button
+					variant={ session.think ? 'default' : 'outline' }
+					onclick={() => session.think = !session.think}
+					data-testid="thinking-mode"
+					title={$LL.thinkDescription()}
+				>
+					<Lightbulb class="base-icon" />
 				</Button>
 			</div>
 

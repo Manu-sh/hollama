@@ -98,7 +98,8 @@ const ja = {
 		'もし {hostname:string} や {ip:string} から利用できないOllamaのサーバーに接続したい場合は、次を試してください',
 	version: 'バージョン',
 	writePromptToStart: '新しいセッションを開始するには、プロンプトを入力してください',
-	you: 'あなた'
+	you: 'あなた',
+	thinkDescription: 'Enable thinking on model'
 } satisfies BaseTranslation;
 
 export default ja;

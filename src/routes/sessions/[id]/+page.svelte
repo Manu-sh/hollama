@@ -182,6 +182,7 @@
 		let chatRequest: ChatRequest = {
 			model: session.model.name,
 			options: session.options,
+			think: session.think,
 			messages: chatMessagesForRequest
 		};
 

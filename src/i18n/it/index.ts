@@ -173,7 +173,8 @@ const it = {
 	sessionsDescription: 'Tutta la cronologia di sessione, allegati e impostazioni personalizzate dei modelli',
 	knowledgeDescription: 'Tutta la knowledge base',
 	expandSidebar: 'Espandi sidebar',
-	collapseSidebar: 'Comprimi sidebar'
+	collapseSidebar: 'Comprimi sidebar',
+	thinkDescription: 'Abilita la thinking mode sul modello'
 } satisfies BaseTranslation;
 
 export default it;

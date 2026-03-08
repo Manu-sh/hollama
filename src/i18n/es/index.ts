@@ -127,7 +127,8 @@ const es = {
 	verify: 'Verificar',
 	version: 'Versión',
 	writePromptToStart: 'Escribe una indicación para comenzar una nueva sesión',
-	you: 'Tú'
+	you: 'Tú',
+	thinkDescription: 'Enable thinking on model'
 } satisfies BaseTranslation;
 
 export default es;
